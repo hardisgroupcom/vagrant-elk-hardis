@@ -19,6 +19,10 @@ This vagrant box installs a ready to use monitoring stack.
 In cookbooks/elk-hardis/attributes/default.rb
 * `default['elk-hardis']['redis_password']` - Password used by Redis (and Logstash)
 
+## Clone
+```
+git clone --recursive https://github.com/hardisgroupcom/vagrant-elk-reflex.git
+```
 
 ## Up and SSH
 
@@ -53,6 +57,9 @@ You can collect any log4j or logback to redis by using :
 
 You can collect any collectd data from [collectd](https://collectd.org) or from a jvm by using [jcollectd](https://github.com/hardisgroupcom/jcollectd)
 
+## Dependencies
+
+[chef-elk-hardis](https://github.com/hardisgroupcom/chef-elk-hardis) - Hardis elk cookbook
 
 ## License
 
