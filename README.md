@@ -21,7 +21,7 @@ In cookbooks/elk-hardis/attributes/default.rb
 
 ## Clone
 ```
-git clone --recursive https://github.com/hardisgroupcom/vagrant-elk-reflex.git
+git clone --recursive https://github.com/hardisgroupcom/vagrant-elk-hardis.git
 ```
 
 ## Up and SSH
